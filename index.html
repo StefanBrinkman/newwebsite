@@ -7,21 +7,17 @@
         <link rel="stylesheet" href="CSS/bootstrap.css" />
         <link rel="stylesheet" href="CSS/styling.css" />
         <link rel="stylesheet" href="CSS/responsive.css" />
-
         <meta name="description" content="Game-site toont games die uit zijn maar ook games die binnenkort gegereleased worden.">
         <meta name="keywords" content="Game-site, Platforms, PC, XBOX, Playstation, Nitendo Switch, Games, Release, Bestaand, Informaite over games, games">
     </head>
-
     <body>
         <header class="bg-secondary">
             <div class="leftheader col-sm-4">
                 <img v-bind:src="Image" id="headerimg" class="rounded"/>
             </div>
-
             <div class="col-sm-4 midheader">
                 <h1 class="sitename">Game Site</h1>
             </div>
-
             <div class="rightheader col-sm-4">
                 <nav>
                     <a href="index.html"><button><strong>Home</strong></button></a>
@@ -39,9 +35,7 @@
                         {{ info }}
                     </li>
                 </ul>
-
         </main>
-
         <main id="platforminfo" class="col-sm-4">
             <p class="sitetext">De games die aangeboden worden op de site, zijn niet specifiek voor een bepaald platform.<br />
                 We bieden games aan voor de volgende platforms:</p>
@@ -51,7 +45,6 @@
                     </li>
                 </ul>
         </main>
-
         <main id="gameinfo" class="col-sm-4">
             <p class="sitetext">Per game kunt u de volgende informatie zien:</p>
                 <ul id="gamelist">
@@ -61,16 +54,13 @@
                 </ul>
         </main>
     </body>
-    
     <footer>
         <p id="footertext">
             {{ FooterText }}
         </p>
     </footer>
-
     <script src="JS/vue.js"></script>
     <script src="JS/JavaScript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="JS/bootstrap.js"></script>
-
 </html>
