@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bestaande games</title>
+        <link rel="stylesheet" href="CSS/bootstrap.css" />
+        <link rel="stylesheet" href="CSS/styling.css" />
+        <link rel="stylesheet" href="CSS/responsive.css" />
+
+        <meta name="description" content="Game-site toont games die beschikbaar zijn op verschillende platforms.">
+        <meta name="keywords" content="Game-site, Platforms, PC, XBOX, Playstation, Nitendo Switch, Release, geplande releases, games, opkomend, release datum">
+    </head>
+
+    <body>
+        <header class="bg-secondary">
+            <div class="leftheader col-sm-4">
+                <img v-bind:src="Image" id="headerimg" class="rounded"/>
+            </div>
+
+            <div class="col-sm-4 midheader">
+                <p class="sitename">Game Site</p>
+            </div>
+
+            <div class="rightheader col-sm-4">
+                <nav>
+                    <a href="index.html"><button>Home</button></a>
+                    <a href="bestaande-games.html"><button><strong>Bestaande games</strong></button></a>
+                    <a href="geplande-releases.html"><button>Geplande releases</button></a>
+                    <a href="contact.html"><button>Contact</button></a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="geplrelea" class="col-sm-4">
+            
+        </main>
+    </body>
+    
+    <footer>
+        <p id="footertext">{{ FooterText }}</p>
+    </footer>
+
+    <script src="JSON/Games_Info.js"></script>
+    <script src="JS/vue.js"></script>
+    <script src="JS/JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/JQuery.js"></script>
+    <script>planned()</script>

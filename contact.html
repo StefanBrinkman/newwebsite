@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="CSS/bootstrap.css" />
+        <link rel="stylesheet" href="CSS/styling.css" />
+        <link rel="stylesheet" href="CSS/responsive.css" />
+
+        <meta name="description" content="Stel hier uw vraag over games waar u geïnteresseerd in bent.">
+        <meta name="keywords" content="Game-site, contact, vragen, games, platform">
+    </head>
+
+    <body>
+        <header class="bg-secondary">
+            <div class="leftheader col-sm-4">
+                <img v-bind:src="Image" id="headerimg" class="rounded"/>
+            </div>
+
+            <div class="col-sm-4 midheader">
+                <p class="sitename">Game Site</p>
+            </div>
+
+            <div class="rightheader col-sm-4">
+                <nav>
+                    <a href="index.html"><button>Home</button></a>
+                    <a href="bestaande-games.html"><button>Bestaande games</button></a>
+                    <a href="geplande-releases.html"><button>Geplande releases</button></a>
+                    <a href="contact.html"><button><strong>Contact</strong></button></a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="contactinfo" class="col-sm-4">
+            <img src="IMAGES/contact.png" alt="Contact_IMG" id="img_contact">
+            <h1>Neem contact op:</h1>
+            <form method="POST" action="#" id="formulier">
+                <label>Naam:</label><br />
+                <input class="forminput" type="text" name="naam" placeholder="Vul hier uw naam in:"><br />
+                <label>Onderwerp:</label><br />
+                <input class="forminput" type="text" name="onderwerp" placeholder="Vul hier uw onderwerp in:"><br />
+                <label>Vraag:</label><br />
+                <textarea class="forminput" type="text" name="naam" rows="4" cols="20" placeholder="Vul hier uw text in"></textarea>
+                <br />
+                <input type="submit" class="forminput">
+            </form>
+        </main>
+    </body>
+    
+    <footer>
+        <p id="footertext">{{ FooterText }}</p>
+    </footer>
+
+    <script src="JS/vue.js"></script>
+    <script src="JS/JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="JS/bootstrap.js"></script>
+
+</html>

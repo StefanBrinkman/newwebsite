@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1001px) and (max-width: 1300px)  {
+    .sitename{
+        padding-top:10%;
+    }
+
+    .sitetext{
+        font-size: 1.5em;
+    }
+
+    #img_contact{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px)  {
+    .sitename{
+        padding-top:10%;
+    }
+
+    .sitetext{
+        font-size: 1.2em;
+    }
+
+    #sitelist > li{
+        font-size: 0.8em;
+    }
+
+    #img_contact{
+        width: 40%;
+    }
+
+    #contactinfo{
+        margin: 15% 10% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-4{
+        height: auto;
+    }
+
+    .sitename{
+        padding-top: unset;
+        padding: 2%;
+    }
+
+    #headerimg{
+        height: auto;
+    }
+
+    .sitetext{
+        font-size: 1.2em;
+    }
+    .platforms, #sitelist > li{
+        font-size: 0.8em !important;
+        font-weight: unset !important;
+    }
+
+    #sitelist{
+        font-size: 1.2em;
+    }
+
+    #gamelist{
+        padding-bottom: 15px;
+    }
+
+    .gtextinfo{
+        font-size: 2em;
+    }
+
+    #img_contact{
+        width: 40%;
+    }
+
+    #footertext{
+        font-size: 0.7em;
+    }
+
+    #contactinfo{
+        margin: 10% 10% !important;
+    }
+}
