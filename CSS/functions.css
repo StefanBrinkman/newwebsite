@@ -4,3 +4,16 @@
     font-weight: bold;
     transition-duration: 1s;
 }
+
+.imgshow:hover{
+    margin-top: 2%;
+    width: 40%;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.imgvid:hover{
+    width: 40%;
+    height: auto;
+    transition-duration: 1s;
+}
