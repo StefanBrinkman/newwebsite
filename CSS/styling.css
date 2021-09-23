@@ -1,22 +1,22 @@
 html {
-    background-color:#442463
+    background-color:#442463;
     }
     
     body {
     width:100%!important;
     margin:auto;
     font-family:'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
-    background-color:#442463
+    background-color:#442463;
     }
     
     .col-sm-4 {
     padding:0!important;
-    height:117px
+    height:117px;
     }
     
     #headerimg {
     width:100%;
-    height:117px
+    height:117px;
     }
     
     .sitename {
@@ -28,15 +28,15 @@ html {
     }
     
     .midheader {
-    background-color:#3a1f55
+    background-color:#3a1f55;
     }
     
     .rightheader {
-    background-color:#33add2
+    background-color:#33add2;
     }
     
     nav {
-    height:100%
+    height:100%;
     }
     
     nav > a > button {
@@ -44,7 +44,7 @@ html {
     height:25%;
     background-color:#87cefa;
     border:1px solid #000;
-    color:#000
+    color:#000;
     }
     
     #siteinfo {
