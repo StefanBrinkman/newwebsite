@@ -17,3 +17,16 @@
     height: auto;
     transition-duration: 1s;
 }
+
+.imgshow::after{
+    margin-top: 0%;
+    width: 30%;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.imgvid::after{
+    width: 30%;
+    height: auto;
+    transition-duration: 1s;
+}
