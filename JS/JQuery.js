@@ -10,13 +10,13 @@ $(document).ready(function(){
       });
 
       $(".imgvid").hover(function(){
-        $(this).css({"width": "60%", "height": "auto", "transition-duration": "1s", "margin-top": "2%"});
+        $(this).css({"width": "50%", "height": "auto", "transition-duration": "1s", "margin-top": "2%"});
         }, function(){
         $(this).css({"width": "30%", "height": "auto"});
       });
       
       $(".imgshow").hover(function(){
-        $(this).css({"width": "60%", "height": "auto", "transition-duration": "1s"});
+        $(this).css({"width": "50%", "height": "auto", "transition-duration": "1s"});
         }, function(){
         $(this).css({"width": "30%", "height": "auto"});
       });
