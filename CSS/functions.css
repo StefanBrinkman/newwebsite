@@ -12,15 +12,16 @@
     transition-duration: 1s;
 }
 
-.imgvid:focus{
-    width: 40%;
+.imgvid:hover{
     height: auto;
-    transition-duration: 1s;
+    animation:anim 5s;
+    -webkit-animation:anim 5s;
+    animation-iteration-count:infinite;
 }
 
 .imgshow::after{
     margin-top: 0%;
-    width: 30%;
+    width: 40%;
     height: auto;
     transition-duration: 1s;
 }
@@ -30,3 +31,22 @@
     height: auto;
     transition-duration: 1s;
 }
+   
+   @keyframes anim {
+     from {
+         width: 30%;
+     }
+     to {
+         width: 40%;
+    }
+   
+   }
+   
+   @-webkit-keyframes anim {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 40%;
+   }
+   }
