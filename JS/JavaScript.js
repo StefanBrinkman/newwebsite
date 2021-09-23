@@ -53,7 +53,7 @@ var vm4 = new Vue({
 var vm5 = new Vue({
     el: '#footertext',
      data: {
-        FooterText: 'Gemaakt door Stefan Brinkman 97049027. &copy; Alle rechten voorbehouden.'
+        FooterText: 'Gemaakt door Stefan Brinkman 97049027. © Alle rechten voorbehouden.'
      }
 });
 
