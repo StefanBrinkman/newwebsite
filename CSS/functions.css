@@ -9,26 +9,5 @@
     margin-top: 2%;
     width: 40%;
     height: auto;
-    transition-duration: 1s;
-}
-
-.imgvid:hover{
-    width: 40%;
-    height: auto;
-    animation:anim 5s;
-    -webkit-animation:anim 5s;
-    animation-iteration-count:infinite;
-}
-
-.imgshow::after{
-    margin-top: 0%;
-    width: 40%;
-    height: auto;
-    transition-duration: 1s;
-}
-
-.imgvid::after{
-    width: 30%;
-    height: auto;
-    transition-duration: 1s;
+    transition: 1s;
 }
