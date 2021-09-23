@@ -12,7 +12,7 @@
     transition-duration: 1s;
 }
 
-.imgvid:hover{
+.imgvid:focus{
     width: 40%;
     height: auto;
     transition-duration: 1s;
