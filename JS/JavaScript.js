@@ -98,7 +98,7 @@ function planned () {
 function setGameData() {
     var passed_info = localStorage.getItem('info');
     var array = passed_info.split(/[(,),,]/);
-    console.log(array);
+    console.log(array[2]);
     var stringlength = passed_info.length;
     var car = stringlength - 4;
     var num = passed_info.charAt(car);
