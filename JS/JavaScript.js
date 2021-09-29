@@ -101,10 +101,7 @@ function setGameData() {
     console.log(array);
     var stringlength = passed_info.length;
     var car = stringlength - 4;
-    console.log(car);
     var num = passed_info.charAt(car);
-    console.log(num);
-    console.log("____");
     var gametabel = "<table id='game1table'>";
     if(passed_info.includes('geplande_releases')) {
         gametabel += "<tr><td><img class='imgvid' src='IMAGES/" + geplande_releases[num].Image + "'></td></tr>";
